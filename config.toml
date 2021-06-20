@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Taha's Blog"
-theme = "github-style"
+theme = "gh-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 

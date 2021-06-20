@@ -1,0 +1,26 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Taha's Blog"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Taha"
+  description = "Respond to every call that excites your spirit."
+  github = "taha-husain"
+  linkedin = "tahahussain18"
+  instagram = "tahahussain18"
+  email = "tahahussain18@gmail.com"
+  url = "https://example.com"
+  keywords = "Ruby, React, Node.js"
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "India"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/taha-husain"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

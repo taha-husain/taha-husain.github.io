@@ -50,8 +50,6 @@ params:
 
     label:
         text: "Taha Husain"
-        # icon: /avatar.jpg
-        # iconHeight: 35
 
     # profile-mode
     profileMode:
@@ -83,7 +81,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/taha-husain/website/content"
+        URL: "https://github.com/taha-husain/taha-husain.github.io/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -99,14 +97,18 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 10
         - identifier: categories
           name: Categories
           url: /categories/
-          weight: 10
+          weight: 20
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 20
+          weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

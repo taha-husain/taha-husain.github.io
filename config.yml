@@ -2,6 +2,7 @@ baseURL: "https://taha-husain.github.io/"
 title: Taha Husain
 paginate: 10
 theme: PaperMod
+publishDir: "docs"
 
 enableRobotsTXT: true
 buildDrafts: false

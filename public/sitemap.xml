@@ -2,10 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://examplesite.com/posts/</loc>
+    <lastmod>2021-09-19T19:14:25+05:30</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://examplesite.com/</loc>
+    <lastmod>2021-09-19T19:14:25+05:30</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://examplesite.com/posts/2021-09-19-utc-datepicker/</loc>
+    <lastmod>2021-09-19T19:14:25+05:30</lastmod>
+  </url><url>
+    <loc>https://examplesite.com/categories/</loc>
+  </url><url>
+    <loc>https://examplesite.com/tags/</loc>
   </url>
 </urlset>

@@ -2,6 +2,8 @@
 title: "UTC Datepicker"
 date: 2021-09-19T19:14:25+05:30
 draft: true
+categories: ["React", "React Datepicker"]
+tags: ["react", "react-datepicker", "datepicker", "timezone"]
 ---
 
 ```

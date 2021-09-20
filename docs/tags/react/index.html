@@ -56,6 +56,11 @@
 <span>Tags</span>
 </a>
 </li>
+<li>
+<a href=https://tahahusain.me/search/ title="Search (Alt + /)" accesskey=/>
+<span>Search</span>
+</a>
+</li>
 </ul>
 </nav>
 </header>
@@ -69,7 +74,7 @@
 </h2>
 </header>
 <section class=entry-content>
-<p>import React from 'react'; import DatePicker from 'react-datepicker'; import PropTypes from 'prop-types'; const UTCDatePicker = ({ startDate, endDate, selected, onChange, ...props }) => { const convertLocalToUTCDate = (localDate) => { if (!localDate) return localDate; const date = new Date(localDate); const utcDate = new Date( date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), ); return utcDate; } const convertUTCToLocalDate = (utcDate) => { if (!utcDate) return utcDate; const date = new Date(utcDate); const localDate = new Date( Date....</p>
+<p>import React from 'react'; import DatePicker from 'react-datepicker'; export default const UTCDatePicker = ({ startDate, endDate, selected, onChange, ...props }) => { const convertLocalToUTCDate = (localDate) => { if (!localDate) return localDate; const date = new Date(localDate); const utcDate = new Date( date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), ); return utcDate; } const convertUTCToLocalDate = (utcDate) => { if (!utcDate) return utcDate; const date = new Date(utcDate); const localDate = new Date( Date....</p>
 </section>
 <footer class=entry-footer>Sep 19, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Taha Husain</footer>
 <a class=entry-link aria-label="post link to UTC Datepicker" href=https://tahahusain.me/posts/2021-09-19-utc-datepicker/></a>

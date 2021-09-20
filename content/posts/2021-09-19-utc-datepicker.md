@@ -9,9 +9,8 @@ tags: ["react", "react-datepicker", "datepicker", "timezone"]
 ```
   import React from 'react';
   import DatePicker from 'react-datepicker';
-  import PropTypes from 'prop-types';
 
-  const UTCDatePicker = ({
+  export default const UTCDatePicker = ({
     startDate,
     endDate,
     selected,
@@ -58,11 +57,4 @@ tags: ["react", "react-datepicker", "datepicker", "timezone"]
       />
     )
   }
-
-  UTCDatePicker.propTypes = {
-    onChange: PropTypes.func.isRequired
-  };
-
-  export default UTCDatePicker;
-
 ```

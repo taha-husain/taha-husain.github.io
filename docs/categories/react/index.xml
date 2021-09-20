@@ -12,7 +12,7 @@
       <pubDate>Sun, 19 Sep 2021 19:14:25 +0530</pubDate>
       
       <guid>https://tahahusain.me/posts/2021-09-19-utc-datepicker/</guid>
-      <description>import React from &#39;react&#39;; import DatePicker from &#39;react-datepicker&#39;; import PropTypes from &#39;prop-types&#39;; const UTCDatePicker = ({ startDate, endDate, selected, onChange, ...props }) =&amp;gt; { const convertLocalToUTCDate = (localDate) =&amp;gt; { if (!localDate) return localDate; const date = new Date(localDate); const utcDate = new Date( date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), ); return utcDate; } const convertUTCToLocalDate = (utcDate) =&amp;gt; { if (!utcDate) return utcDate; const date = new Date(utcDate); const localDate = new Date( Date.</description>
+      <description>import React from &#39;react&#39;; import DatePicker from &#39;react-datepicker&#39;; export default const UTCDatePicker = ({ startDate, endDate, selected, onChange, ...props }) =&amp;gt; { const convertLocalToUTCDate = (localDate) =&amp;gt; { if (!localDate) return localDate; const date = new Date(localDate); const utcDate = new Date( date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), ); return utcDate; } const convertUTCToLocalDate = (utcDate) =&amp;gt; { if (!utcDate) return utcDate; const date = new Date(utcDate); const localDate = new Date( Date.</description>
     </item>
     
   </channel>

@@ -49,6 +49,7 @@ params:
 
     label:
         text: "Taha Husain"
+        # icon: avatar.jpg
 
     # profile-mode
     profileMode:

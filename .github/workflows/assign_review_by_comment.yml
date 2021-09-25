@@ -5,10 +5,11 @@ jobs:
   assign_review_by_comment:
     runs-on: ubuntu-latest
     steps:
-    - name: assign_review_by_comment
-      # We recommend to use an arbitary latest version
-      # if you don't have any troubles.
-      # You can also specify `master`, but it sometimes might be broken.
-      uses: cats-oss/github-action-auto-assign@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Dump GitHub Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "${GITHUB_CONTEXT}"
+      - name: assign_review_by_comment
+        uses: cats-oss/github-action-auto-assign@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

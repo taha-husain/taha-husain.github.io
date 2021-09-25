@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on Taha Husain</title>
+    <link>https://tahahusain.me/categories/react/</link>
+    <description>Recent content in React on Taha Husain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 19 Sep 2021 19:14:25 +0530</lastBuildDate><atom:link href="https://tahahusain.me/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UTC Datepicker</title>
+      <link>https://tahahusain.me/posts/2021-09-19-utc-datepicker/</link>
+      <pubDate>Sun, 19 Sep 2021 19:14:25 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/posts/2021-09-19-utc-datepicker/</guid>
+      <description>import React from &#39;react&#39;; import DatePicker from &#39;react-datepicker&#39;; export default const UTCDatePicker = ({ startDate, endDate, selected, onChange, ...props }) =&amp;gt; { const convertLocalToUTCDate = (localDate) =&amp;gt; { if (!localDate) return localDate; const date = new Date(localDate); const utcDate = new Date( date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), ); return utcDate; } const convertUTCToLocalDate = (utcDate) =&amp;gt; { if (!utcDate) return utcDate; const date = new Date(utcDate); const localDate = new Date( Date.</description>
+    </item>
+    
+  </channel>
+</rss>

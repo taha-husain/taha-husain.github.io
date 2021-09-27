@@ -9,5 +9,4 @@ jobs:
         uses: taha-husain/github-action-auto-assign@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPTIONS:
-            ONLY_REVIEWERS: true
+          ONLY_REVIEWERS: true

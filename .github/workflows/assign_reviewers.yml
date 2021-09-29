@@ -1,0 +1,34 @@
+name: Add Reviewers
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  fetch_reviewers:
+    runs-on: ubuntu-latest
+    outputs:
+      reviewers: ${{ steps.check.outputs.comment_body }}
+    steps:
+      - uses: khan/pull-request-comment-trigger@master
+        id: check
+        with:
+          trigger: '/r'
+          prefix_only: true
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      - run: 'echo Found it!'
+        if: steps.check.outputs.comment_body
+
+  assign_reviewers:
+    runs-on: ubuntu-latest
+    needs: fetch_reviewers
+    steps:
+    - name: Add Reviewers
+      uses: madrapps/add-reviewers@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        reviewers:
+        re-request-when-approved: true
+        re-request-when-changes-requested: true
+    - run: echo ${{needs.fetch_reviewers.outputs.reviewers}}

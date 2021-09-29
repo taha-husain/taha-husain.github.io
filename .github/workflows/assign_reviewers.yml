@@ -19,7 +19,7 @@ jobs:
           prefix_only: true
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-      - run: echo Found it! ${{steps.check.outputs.comment_body}}
+      - run: 'echo Found it! ${{steps.check.outputs.comment_body}}'
         if: steps.check.outputs.comment_body
 
   assign_reviewers:

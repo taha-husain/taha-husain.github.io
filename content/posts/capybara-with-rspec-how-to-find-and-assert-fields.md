@@ -52,15 +52,23 @@ following HTML.
 
 ![Toggle element](../../toggle_element.png "Toggle element")
 
-In this case,
-we could not find
-the checkbox with
-id,
-name,
-value
-or disabled attributes.
+Let's try to
+test our toggle(checkbox) element.
 
-This is because the
+```
+expect(page).to have_field('toggleId', type: 'checkbox', disabled: true)
+```
+
+This throws following error -
+
+```
+Failure/Error: expect(page).to have_field('toggleId', type: 'checkbox', disabled: true)
+  expected to find visible field "toggleId" of type "checkbox" but there were no matches. Also found "", which matched the selector but not all filters.
+
+```
+
+This error is
+because the
 input was not
 part of the
 visible page.

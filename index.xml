@@ -4,7 +4,21 @@
     <title>Taha Husain</title>
     <link>https://tahahusain.me/</link>
     <description>Recent content on Taha Husain</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tahahusain.me/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate><atom:link href="https://tahahusain.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capybara with Rspec - How to find and assert fields</title>
+      <link>https://tahahusain.me/posts/capybara-with-rspec-how-to-find-and-assert-fields/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/posts/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
+      <description>Capybara provides find_field API to find input fields.
+find_field(&#39;id_of_checkbox&#39;, type: &#39;checkbox&#39;) To add assertions for input fields we can use Rspec matcher have_field which has similar usage as find_field.
+expect(page).to have_field(&#39;id_of_checkbox&#39;, type: &#39;checkbox&#39;) In some cases input fields are not found using find_field, specially when input field(s) are added by third party library.
+Let&amp;rsquo;s take an example of toggle component that we recently used to understand this problem better.
+&amp;lt;Toggle id=&amp;quot;toggleId&amp;quot; name=&amp;quot;toggleName&amp;quot; size=&amp;quot;large&amp;quot; isDisabled={disableToggle} value={toggleValue} isChecked={toggleValue} onChange={handleToggleChange} /&amp;gt; Adding above component in react code generates following HTML.</description>
+    </item>
+    
     
   </channel>
 </rss>

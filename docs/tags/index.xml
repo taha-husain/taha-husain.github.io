@@ -4,6 +4,52 @@
     <title>Tags on Taha Husain</title>
     <link>https://tahahusain.me/tags/</link>
     <description>Recent content in Tags on Taha Husain</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tahahusain.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate><atom:link href="https://tahahusain.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>capybara</title>
+      <link>https://tahahusain.me/tags/capybara/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/tags/capybara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://tahahusain.me/tags/rails/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://tahahusain.me/tags/react/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rspec</title>
+      <link>https://tahahusain.me/tags/rspec/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/tags/rspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://tahahusain.me/tags/testing/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/tags/testing/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

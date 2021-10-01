@@ -2,14 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tahahusain.me/categories/capybara/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/capybara/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/posts/capybara-with-rspec-how-to-find-and-assert-fields/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
     <loc>https://tahahusain.me/categories/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/posts/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/rails/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/react/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/categories/rspec/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/rspec/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/testing/</loc>
+    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
     <loc>https://tahahusain.me/search/</loc>
   </url><url>
     <loc>https://tahahusain.me/series/</loc>
-  </url><url>
-    <loc>https://tahahusain.me/tags/</loc>
-  </url><url>
-    <loc>https://tahahusain.me/</loc>
   </url>
 </urlset>

@@ -21,7 +21,10 @@
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript><meta property="og:title" content="timezone">
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFCZ33WZB"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EMFCZ33WZB',{anonymize_ip:!1})}</script>
+<meta property="og:title" content="timezone">
 <meta property="og:description" content="Software Engineer">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tahahusain.me/tags/timezone/"><meta property="og:site_name" content="Taha Husain">
@@ -70,14 +73,16 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>UTC Datepicker<sup><span class=entry-isdraft>&nbsp;&nbsp;[draft]</span></sup>
+<h2>React Datepicker - How to select Date and time in UTC
 </h2>
 </header>
 <section class=entry-content>
-<p>import React from 'react'; import DatePicker from 'react-datepicker'; export default const UTCDatePicker = ({ startDate, endDate, selected, onChange, ...props }) => { const convertLocalToUTCDate = (localDate) => { if (!localDate) return localDate; const date = new Date(localDate); const utcDate = new Date( date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), ); return utcDate; } const convertUTCToLocalDate = (utcDate) => { if (!utcDate) return utcDate; const date = new Date(utcDate); const localDate = new Date( Date....</p>
+<p>By default, React Datepicker selects date and time in local timezone. To select date in a specified timezone we need to convert timezone manually. To do so, we may also need to use library like Moment Timezone.
+This blog focuses on selecting date and time in standard UTC timezone and its implementation doesn’t require extra library installation.
+The original implementation is suggested by @JohnStarich. This implementation has a bit of tweak to accommodate time picker....</p>
 </section>
 <footer class=entry-footer>Sep 19, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Taha Husain</footer>
-<a class=entry-link aria-label="post link to UTC Datepicker" href=https://tahahusain.me/posts/2021-09-19-utc-datepicker/></a>
+<a class=entry-link aria-label="post link to React Datepicker - How to select Date and time in UTC" href=https://tahahusain.me/posts/react-datepicker-how-to-select-date-time-in-utc/></a>
 </article>
 </main>
 <footer class=footer>

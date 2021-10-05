@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>React on Taha Husain</title>
-    <link>https://tahahusain.me/categories/react/</link>
-    <description>Recent content in React on Taha Husain</description>
+    <title>utc on Taha Husain</title>
+    <link>https://tahahusain.me/tags/utc/</link>
+    <description>Recent content in utc on Taha Husain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Sep 2021 11:28:55 +0530</lastBuildDate><atom:link href="https://tahahusain.me/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Sep 2021 11:28:55 +0530</lastBuildDate><atom:link href="https://tahahusain.me/tags/utc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React Datepicker - How to select Date and time in UTC</title>
       <link>https://tahahusain.me/posts/react-datepicker-how-to-select-date-time-in-utc/</link>

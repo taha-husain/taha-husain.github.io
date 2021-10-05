@@ -24,5 +24,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Datepicker</title>
+      <link>https://tahahusain.me/categories/datepicker/</link>
+      <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/categories/datepicker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://tahahusain.me/categories/react/</link>
+      <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/categories/react/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

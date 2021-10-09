@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tahahusain.me/categories/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/today_years_old/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/categories/music/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/music/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/categories/music-instruments/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/music-instruments/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/tags/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
+    <loc>https://tahahusain.me/today_years_old/theremin/</loc>
+    <lastmod>2021-10-09T07:27:55+05:30</lastmod>
+  </url><url>
     <loc>https://tahahusain.me/categories/capybara/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
@@ -9,9 +36,6 @@
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
     <loc>https://tahahusain.me/posts/capybara-with-rspec-how-to-find-and-assert-fields/</loc>
-    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
-  </url><url>
-    <loc>https://tahahusain.me/categories/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
     <loc>https://tahahusain.me/posts/</loc>
@@ -27,12 +51,6 @@
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
     <loc>https://tahahusain.me/tags/rspec/</loc>
-    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
-  </url><url>
-    <loc>https://tahahusain.me/tags/</loc>
-    <lastmod>2021-10-01T11:45:14+05:30</lastmod>
-  </url><url>
-    <loc>https://tahahusain.me/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
     <loc>https://tahahusain.me/tags/testing/</loc>

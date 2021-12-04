@@ -1,7 +1,7 @@
 ---
 title: "React Datepicker - How to select Date and time in UTC"
 date: 2021-09-19T11:28:55+05:30
-categories: [React, Datepicker]
+categories: [Tech]
 tags: [react, react-datepicker, utc, timezone]
 ---
 

@@ -53,9 +53,9 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
+        enabled: true # needs to be explicitly set
         title: Taha Husain
-        subtitle: Software Engineer
+        subtitle: Software Engineer | Student of Music and Yoga
         imageUrl: /avatar.jpg
         imageWidth: 120
         imageHeight: 120
@@ -63,6 +63,8 @@ params:
         buttons:
             - name: Posts
               url: posts
+            - name: Categories
+              url: categories
             - name: Tags
               url: tags
 
@@ -72,6 +74,10 @@ params:
         Content: Welcome to my blog.
 
     socialIcons:
+        - name: instagram
+          url: "https://www.instagram.com/tahahussain18/"
+        - name: youtube
+          url: "https://www.youtube.com/channel/UClzJVBAHj_36wVxpc7-99hQ"
         - name: github
           url: "https://github.com/taha-husain"
         - name: linkedin
@@ -113,13 +119,9 @@ menu:
         #   name: Tags
         #   url: /tags/
         #   weight: 30
-        # - name: Search
-        #   url: /search/
-        #   weight: 40
-        - identifier: today_years_old
-          name: Today Years Old
-          url: /today_years_old/
-          weight: 60
+        - name: Search
+          url: /search/
+          weight: 40
 
 taxonomies:
     category: categories

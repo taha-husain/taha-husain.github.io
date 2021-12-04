@@ -1,7 +1,7 @@
 ---
 title: "Theremin"
 date: 2021-10-09T07:27:55+05:30
-categories: [Music, Music Instruments]
+categories: [Music]
 tags: [music, music-instruments]
 ---
 

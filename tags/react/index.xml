@@ -8,10 +8,10 @@
     <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate><atom:link href="https://tahahusain.me/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capybara with Rspec - How to find and assert fields</title>
-      <link>https://tahahusain.me/posts/capybara-with-rspec-how-to-find-and-assert-fields/</link>
+      <link>https://tahahusain.me/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
       
-      <guid>https://tahahusain.me/posts/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
+      <guid>https://tahahusain.me/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
       <description>Capybara provides find_field API to find input fields.
 find_field(&#39;id_of_checkbox&#39;, type: &#39;checkbox&#39;) To add assertions for input fields we can use Rspec matcher have_field which has similar usage as find_field.
 expect(page).to have_field(&#39;id_of_checkbox&#39;, type: &#39;checkbox&#39;) In some cases input fields are not found using find_field, specially when input field(s) are added by third party library.
@@ -21,10 +21,10 @@ Let&amp;rsquo;s take an example of toggle component that we recently used to und
     
     <item>
       <title>React Datepicker - How to select Date and time in UTC</title>
-      <link>https://tahahusain.me/posts/react-datepicker-how-to-select-date-time-in-utc/</link>
+      <link>https://tahahusain.me/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
       <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
       
-      <guid>https://tahahusain.me/posts/react-datepicker-how-to-select-date-time-in-utc/</guid>
+      <guid>https://tahahusain.me/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
       <description>By default, React Datepicker selects date and time in local timezone. To select date in a specified timezone we need to convert timezone manually. To do so, we may also need to use library like Moment Timezone.
 This blog focuses on selecting date and time in standard UTC timezone and its implementation doesn&amp;rsquo;t require extra library installation.
 The original implementation is suggested by @JohnStarich. This implementation has a bit of tweak to accommodate time picker.</description>

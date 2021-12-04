@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>testing on Taha Husain</title>
-    <link>https://tahahusain.me/tags/testing/</link>
-    <description>Recent content in testing on Taha Husain</description>
+    <title>Tech on Taha Husain</title>
+    <link>https://tahahusain.me/categories/tech/</link>
+    <description>Recent content in Tech on Taha Husain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate><atom:link href="https://tahahusain.me/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate><atom:link href="https://tahahusain.me/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capybara with Rspec - How to find and assert fields</title>
       <link>https://tahahusain.me/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
@@ -17,6 +17,17 @@ find_field(&#39;id_of_checkbox&#39;, type: &#39;checkbox&#39;) To add assertions
 expect(page).to have_field(&#39;id_of_checkbox&#39;, type: &#39;checkbox&#39;) In some cases input fields are not found using find_field, specially when input field(s) are added by third party library.
 Let&amp;rsquo;s take an example of toggle component that we recently used to understand this problem better.
 &amp;lt;Toggle id=&amp;quot;toggleId&amp;quot; name=&amp;quot;toggleName&amp;quot; size=&amp;quot;large&amp;quot; isDisabled={disableToggle} value={toggleValue} isChecked={toggleValue} onChange={handleToggleChange} /&amp;gt; Adding above component in react code generates following HTML.</description>
+    </item>
+    
+    <item>
+      <title>React Datepicker - How to select Date and time in UTC</title>
+      <link>https://tahahusain.me/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
+      <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
+      <description>By default, React Datepicker selects date and time in local timezone. To select date in a specified timezone we need to convert timezone manually. To do so, we may also need to use library like Moment Timezone.
+This blog focuses on selecting date and time in standard UTC timezone and its implementation doesn&amp;rsquo;t require extra library installation.
+The original implementation is suggested by @JohnStarich. This implementation has a bit of tweak to accommodate time picker.</description>
     </item>
     
   </channel>

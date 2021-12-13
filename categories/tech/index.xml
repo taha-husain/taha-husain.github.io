@@ -5,7 +5,18 @@
     <link>https://tahahusain.me/categories/tech/</link>
     <description>Recent content in Tech on Taha Husain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate><atom:link href="https://tahahusain.me/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 15:12:17 +0530</lastBuildDate><atom:link href="https://tahahusain.me/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React Table - How to implement row selection with controlled server-side pagination</title>
+      <link>https://tahahusain.me/posts/tech/react-table-row-selection-with-controlled-pagination/</link>
+      <pubDate>Fri, 22 Oct 2021 15:12:17 +0530</pubDate>
+      
+      <guid>https://tahahusain.me/posts/tech/react-table-row-selection-with-controlled-pagination/</guid>
+      <description>In this blog, we will implement multi-row selection and select all with controlled server-side pagination in React using React Table hooks.
+We will use examples provided by react-table for controlled pagination and row selection and pagination and work our way to acheive desired result.
+Implementation Step 1 To select all rows, we would need unique identifier of all rows pre-fetched on the page. Pass all ids to the Table component.</description>
+    </item>
+    
     <item>
       <title>Capybara with Rspec - How to find and assert fields</title>
       <link>https://tahahusain.me/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>

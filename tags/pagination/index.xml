@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>react-table on Taha Husain</title>
-    <link>https://tahahusain.me/tags/react-table/</link>
-    <description>Recent content in react-table on Taha Husain</description>
+    <title>pagination on Taha Husain</title>
+    <link>https://tahahusain.me/tags/pagination/</link>
+    <description>Recent content in pagination on Taha Husain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Oct 2021 15:12:17 +0530</lastBuildDate><atom:link href="https://tahahusain.me/tags/react-table/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 15:12:17 +0530</lastBuildDate><atom:link href="https://tahahusain.me/tags/pagination/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React Table - How to implement row selection with controlled server-side pagination</title>
       <link>https://tahahusain.me/posts/tech/react-table-row-selection-with-controlled-pagination/</link>

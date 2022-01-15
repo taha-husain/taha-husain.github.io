@@ -125,5 +125,3 @@ please check out following codesandbox.
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
   ></iframe>
 {{< /rawhtml >}}
-
-Peach out!

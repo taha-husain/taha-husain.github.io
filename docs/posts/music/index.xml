@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music on Taha Husain</title>
-    <link>http://localhost:1313/posts/music/</link>
+    <link>http://taha-husain.github.io/posts/music/</link>
     <description>Recent content in Music on Taha Husain</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 09 Oct 2021 07:27:55 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/music/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://taha-husain.github.io/posts/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theremin</title>
-      <link>http://localhost:1313/posts/music/theremin/</link>
+      <link>http://taha-husain.github.io/posts/music/theremin/</link>
       <pubDate>Sat, 09 Oct 2021 07:27:55 +0530</pubDate>
-      <guid>http://localhost:1313/posts/music/theremin/</guid>
+      <guid>http://taha-husain.github.io/posts/music/theremin/</guid>
       <description>&lt;p&gt;Theremin - a music instrument played without touching.&lt;/p&gt;&#xA;&lt;p&gt;It is known to be&#xA;one of the first&#xA;electronic instrument,&#xA;invented about 100 years ago.&lt;/p&gt;&#xA;&lt;p&gt;Mind blown!&lt;/p&gt;&#xA;&#xA;&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wrUo9hmNwts&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
   </channel>

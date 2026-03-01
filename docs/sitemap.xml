@@ -2,73 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://taha-husain.github.io/posts/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pagination/</loc>
+    <loc>http://taha-husain.github.io/tags/pagination/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>http://taha-husain.github.io/tags/react/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tech/react-table-row-selection-with-controlled-pagination/</loc>
+    <loc>http://taha-husain.github.io/posts/tech/react-table-row-selection-with-controlled-pagination/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react-table/</loc>
+    <loc>http://taha-husain.github.io/tags/react-table/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://taha-husain.github.io/tags/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://taha-husain.github.io/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tech/</loc>
+    <loc>http://taha-husain.github.io/posts/tech/</loc>
     <lastmod>2021-10-22T15:12:17+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/music/</loc>
+    <loc>http://taha-husain.github.io/posts/music/</loc>
     <lastmod>2021-10-09T07:27:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/music/</loc>
+    <loc>http://taha-husain.github.io/tags/music/</loc>
     <lastmod>2021-10-09T07:27:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/music-instruments/</loc>
+    <loc>http://taha-husain.github.io/tags/music-instruments/</loc>
     <lastmod>2021-10-09T07:27:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/music/theremin/</loc>
+    <loc>http://taha-husain.github.io/posts/music/theremin/</loc>
     <lastmod>2021-10-09T07:27:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/capybara/</loc>
+    <loc>http://taha-husain.github.io/tags/capybara/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</loc>
+    <loc>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rails/</loc>
+    <loc>http://taha-husain.github.io/tags/rails/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rspec/</loc>
+    <loc>http://taha-husain.github.io/tags/rspec/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/testing/</loc>
+    <loc>http://taha-husain.github.io/tags/testing/</loc>
     <lastmod>2021-10-01T11:45:14+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</loc>
+    <loc>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</loc>
     <lastmod>2021-09-19T11:28:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react-datepicker/</loc>
+    <loc>http://taha-husain.github.io/tags/react-datepicker/</loc>
     <lastmod>2021-09-19T11:28:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/timezone/</loc>
+    <loc>http://taha-husain.github.io/tags/timezone/</loc>
     <lastmod>2021-09-19T11:28:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/utc/</loc>
+    <loc>http://taha-husain.github.io/tags/utc/</loc>
     <lastmod>2021-09-19T11:28:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>http://taha-husain.github.io/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>http://taha-husain.github.io/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://taha-husain.github.io/search/</loc>
   </url>
 </urlset>

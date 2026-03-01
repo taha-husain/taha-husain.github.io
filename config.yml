@@ -20,7 +20,7 @@ params:
     description: "Senior Software Engineer based in Berlin"
     intro: |
         Hi, I'm Taha — a senior software engineer based in Berlin with 11+ years of experience building backend-heavy web applications.
-        I specialise in Ruby on Rails, distributed systems, and AWS. I also write about React, and occasionally music.
+        I specialise in Ruby on Rails, distributed systems, and AWS. I also write about technology, and occasionally music.
     avatarUrl: /avatar.jpg
     socialLinks:
         - name: GitHub

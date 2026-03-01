@@ -1,7 +1,6 @@
 ---
 title: "React Table - How to implement row selection with controlled server-side pagination"
 date: 2021-10-22T15:12:17+05:30
-categories: [Tech]
 tags: [react, react-table, pagination]
 ---
 

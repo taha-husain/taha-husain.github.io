@@ -1,122 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taha Husain</title>
-    <link>http://taha-husain.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Taha Husain</description>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 22 Oct 2021 15:12:17 +0530</lastBuildDate>
-    <atom:link href="http://taha-husain.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React Table - How to implement row selection with controlled server-side pagination</title>
-      <link>http://taha-husain.github.io/posts/tech/react-table-row-selection-with-controlled-pagination/</link>
+      <link>http://localhost:1313/posts/tech/react-table-row-selection-with-controlled-pagination/</link>
       <pubDate>Fri, 22 Oct 2021 15:12:17 +0530</pubDate>
-      <guid>http://taha-husain.github.io/posts/tech/react-table-row-selection-with-controlled-pagination/</guid>
-      <description>&lt;p&gt;In this blog,
-we will implement
-multi-row selection
-and select all
-with controlled
-server-side pagination
-in React
-using React Table hooks.&lt;/p&gt;
-&lt;p&gt;We will use
-examples provided by
-&lt;code&gt;react-table&lt;/code&gt; for
-&lt;a href=&#34;https://react-table.tanstack.com/docs/examples/pagination-controlled&#34;&gt;controlled pagination&lt;/a&gt;
-and
-&lt;a href=&#34;https://react-table.tanstack.com/docs/examples/row-selection-and-pagination&#34;&gt;row selection and pagination&lt;/a&gt;
-and work our way to acheive desired result.&lt;/p&gt;
-&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
-&lt;h4 id=&#34;step-1&#34;&gt;Step 1&lt;/h4&gt;
-&lt;p&gt;To select all rows,
-we would need unique identifier
-of all rows pre-fetched
-on the page.
-Pass all ids to the &lt;code&gt;Table&lt;/code&gt; component.&lt;/p&gt;
-&lt;h4 id=&#34;step-2&#34;&gt;Step 2&lt;/h4&gt;
-&lt;p&gt;Use &lt;code&gt;getToggleAllRowsSelectedProps&lt;/code&gt;
-instead of &lt;code&gt;getToggleAllPageRowsSelectedProps&lt;/code&gt;
-for header checkbox
-to trigger rows select event across
-all pages.
-Note - &lt;code&gt;getToggleAllRowsSelectedProps&lt;/code&gt; works
-seamlessly for frontend pagination,
-but needs to be customized for
-server-side pagination.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/tech/react-table-row-selection-with-controlled-pagination/</guid>
+      <description>&lt;p&gt;In this blog,&#xA;we will implement&#xA;multi-row selection&#xA;and select all&#xA;with controlled&#xA;server-side pagination&#xA;in React&#xA;using React Table hooks.&lt;/p&gt;&#xA;&lt;p&gt;We will use&#xA;examples provided by&#xA;&lt;code&gt;react-table&lt;/code&gt; for&#xA;&lt;a href=&#34;https://react-table.tanstack.com/docs/examples/pagination-controlled&#34;&gt;controlled pagination&lt;/a&gt;&#xA;and&#xA;&lt;a href=&#34;https://react-table.tanstack.com/docs/examples/row-selection-and-pagination&#34;&gt;row selection and pagination&lt;/a&gt;&#xA;and work our way to acheive desired result.&lt;/p&gt;&#xA;&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;&#xA;&lt;h4 id=&#34;step-1&#34;&gt;Step 1&lt;/h4&gt;&#xA;&lt;p&gt;To select all rows,&#xA;we would need unique identifier&#xA;of all rows pre-fetched&#xA;on the page.&#xA;Pass all ids to the &lt;code&gt;Table&lt;/code&gt; component.&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-2&#34;&gt;Step 2&lt;/h4&gt;&#xA;&lt;p&gt;Use &lt;code&gt;getToggleAllRowsSelectedProps&lt;/code&gt;&#xA;instead of &lt;code&gt;getToggleAllPageRowsSelectedProps&lt;/code&gt;&#xA;for header checkbox&#xA;to trigger rows select event across&#xA;all pages.&#xA;Note - &lt;code&gt;getToggleAllRowsSelectedProps&lt;/code&gt; works&#xA;seamlessly for frontend pagination,&#xA;but needs to be customized for&#xA;server-side pagination.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Theremin</title>
-      <link>http://taha-husain.github.io/posts/music/theremin/</link>
+      <link>http://localhost:1313/posts/music/theremin/</link>
       <pubDate>Sat, 09 Oct 2021 07:27:55 +0530</pubDate>
-      <guid>http://taha-husain.github.io/posts/music/theremin/</guid>
-      <description>&lt;p&gt;Theremin - a music instrument played without touching.&lt;/p&gt;
-&lt;p&gt;It is known to be
-one of the first
-electronic instrument,
-invented about 100 years ago.&lt;/p&gt;
-&lt;p&gt;Mind blown!&lt;/p&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wrUo9hmNwts&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+      <guid>http://localhost:1313/posts/music/theremin/</guid>
+      <description>&lt;p&gt;Theremin - a music instrument played without touching.&lt;/p&gt;&#xA;&lt;p&gt;It is known to be&#xA;one of the first&#xA;electronic instrument,&#xA;invented about 100 years ago.&lt;/p&gt;&#xA;&lt;p&gt;Mind blown!&lt;/p&gt;&#xA;&#xA;&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wrUo9hmNwts&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Capybara with Rspec - How to find and assert fields</title>
-      <link>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
+      <link>http://localhost:1313/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      <guid>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
-      <description>&lt;p&gt;Capybara provides
-&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FFinders:find_field&#34;&gt;&lt;em&gt;find_field&lt;/em&gt;&lt;/a&gt;
-API to find input fields.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To add assertions
-for input fields
-we can use
-Rspec matcher
-&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FRSpecMatchers:have_field&#34;&gt;&lt;em&gt;have_field&lt;/em&gt;&lt;/a&gt;
-which has similar usage as &lt;code&gt;find_field&lt;/code&gt;.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;expect(page).to have_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In some cases input fields are not
-found using &lt;code&gt;find_field&lt;/code&gt;,
-specially when input field(s)
-are added by third party library.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s take an example of
-&lt;a href=&#34;https://atlassian.design/components/toggle/examples&#34;&gt;toggle&lt;/a&gt;
-component that we recently used
-to understand this problem better.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;Toggle
-  id=&amp;#34;toggleId&amp;#34;
-  name=&amp;#34;toggleName&amp;#34;
-  size=&amp;#34;large&amp;#34;
-  isDisabled={disableToggle}
-  value={toggleValue}
-  isChecked={toggleValue}
-  onChange={handleToggleChange}
-/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Adding above component
-in react code generates
-following HTML.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
+      <description>&lt;p&gt;Capybara provides&#xA;&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FFinders:find_field&#34;&gt;&lt;em&gt;find_field&lt;/em&gt;&lt;/a&gt;&#xA;API to find input fields.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To add assertions&#xA;for input fields&#xA;we can use&#xA;Rspec matcher&#xA;&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FRSpecMatchers:have_field&#34;&gt;&lt;em&gt;have_field&lt;/em&gt;&lt;/a&gt;&#xA;which has similar usage as &lt;code&gt;find_field&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;expect(page).to have_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In some cases input fields are not&#xA;found using &lt;code&gt;find_field&lt;/code&gt;,&#xA;specially when input field(s)&#xA;are added by third party library.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s take an example of&#xA;&lt;a href=&#34;https://atlassian.design/components/toggle/examples&#34;&gt;toggle&lt;/a&gt;&#xA;component that we recently used&#xA;to understand this problem better.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;Toggle&#xA;  id=&amp;#34;toggleId&amp;#34;&#xA;  name=&amp;#34;toggleName&amp;#34;&#xA;  size=&amp;#34;large&amp;#34;&#xA;  isDisabled={disableToggle}&#xA;  value={toggleValue}&#xA;  isChecked={toggleValue}&#xA;  onChange={handleToggleChange}&#xA;/&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Adding above component&#xA;in react code generates&#xA;following HTML.&lt;/p&gt;</description>
     </item>
     <item>
       <title>React Datepicker - How to select Date and time in UTC</title>
-      <link>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
+      <link>http://localhost:1313/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
       <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
-      <guid>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
-      <description>&lt;p&gt;By default, &lt;a href=&#34;https://www.npmjs.com/package/react-datepicker&#34;&gt;React Datepicker&lt;/a&gt;
-selects date and time in local timezone.
-To select date in a specified timezone
-we need to convert timezone manually.
-To do so, we may also need to use library like
-&lt;a href=&#34;https://momentjs.com/timezone/&#34;&gt;Moment Timezone&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blog focuses on selecting date and time in
-standard UTC timezone
-and its implementation doesn&amp;rsquo;t require
-extra library installation.&lt;/p&gt;
-&lt;p&gt;The original
-&lt;a href=&#34;https://github.com/JohnStarich/sage/blob/b422b0ccef05fffe29143f335017ad2fc24f76fc/web/src/UTCDatePicker.js&#34;&gt;implementation&lt;/a&gt;
-is suggested by
-&lt;a href=&#34;https://github.com/JohnStarich&#34;&gt;@JohnStarich&lt;/a&gt;.
-This implementation has a bit of tweak to accommodate time picker.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
+      <description>&lt;p&gt;By default, &lt;a href=&#34;https://www.npmjs.com/package/react-datepicker&#34;&gt;React Datepicker&lt;/a&gt;&#xA;selects date and time in local timezone.&#xA;To select date in a specified timezone&#xA;we need to convert timezone manually.&#xA;To do so, we may also need to use library like&#xA;&lt;a href=&#34;https://momentjs.com/timezone/&#34;&gt;Moment Timezone&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This blog focuses on selecting date and time in&#xA;standard UTC timezone&#xA;and its implementation doesn&amp;rsquo;t require&#xA;extra library installation.&lt;/p&gt;&#xA;&lt;p&gt;The original&#xA;&lt;a href=&#34;https://github.com/JohnStarich/sage/blob/b422b0ccef05fffe29143f335017ad2fc24f76fc/web/src/UTCDatePicker.js&#34;&gt;implementation&lt;/a&gt;&#xA;is suggested by&#xA;&lt;a href=&#34;https://github.com/JohnStarich&#34;&gt;@JohnStarich&lt;/a&gt;.&#xA;This implementation has a bit of tweak to accommodate time picker.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/</guid>
+      <description>&lt;div class=&#34;portfolio-grid&#34;&gt;&#xA;&lt;div class=&#34;project-card&#34;&gt;&#xA;    &lt;div class=&#34;project-card-header&#34;&gt;&#xA;        &lt;span class=&#34;project-name&#34;&gt;Project Name&lt;/span&gt;&#xA;        &lt;div class=&#34;project-links&#34;&gt;&#xA;            &lt;a href=&#34;https://github.com/taha-husain&#34; class=&#34;project-link&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xA;                &lt;svg viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z&#34;/&gt;&lt;/svg&gt;&#xA;                GitHub&#xA;            &lt;/a&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;p class=&#34;project-desc&#34;&gt;A short description of what this project does and the problem it solves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;div class=&#34;resume-section&#34;&gt;&#xA;    &lt;p class=&#34;resume-section-title&#34;&gt;Experience&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;resume-item&amp;quot;&amp;gt;&#xA;    &amp;lt;div class=&amp;quot;resume-item-header&amp;quot;&amp;gt;&#xA;        &amp;lt;span class=&amp;quot;resume-item-title&amp;quot;&amp;gt;Software Engineer&amp;lt;/span&amp;gt;&#xA;        &amp;lt;span class=&amp;quot;resume-item-date&amp;quot;&amp;gt;2021 – Present&amp;lt;/span&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;    &amp;lt;div class=&amp;quot;resume-item-sub&amp;quot;&amp;gt;Company Name · Full-time&amp;lt;/div&amp;gt;&#xA;    &amp;lt;div class=&amp;quot;resume-item-body&amp;quot;&amp;gt;&#xA;        &amp;lt;ul&amp;gt;&#xA;            &amp;lt;li&amp;gt;Built and maintained full-stack web applications using React and Ruby on Rails.&amp;lt;/li&amp;gt;&#xA;            &amp;lt;li&amp;gt;Led front-end architecture decisions and improved performance across the platform.&amp;lt;/li&amp;gt;&#xA;            &amp;lt;li&amp;gt;Collaborated with cross-functional teams to ship features used by thousands of users.&amp;lt;/li&amp;gt;&#xA;        &amp;lt;/ul&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&#xA;&amp;lt;div class=&amp;quot;resume-item&amp;quot;&amp;gt;&#xA;    &amp;lt;div class=&amp;quot;resume-item-header&amp;quot;&amp;gt;&#xA;        &amp;lt;span class=&amp;quot;resume-item-title&amp;quot;&amp;gt;Junior Software Engineer&amp;lt;/span&amp;gt;&#xA;        &amp;lt;span class=&amp;quot;resume-item-date&amp;quot;&amp;gt;2019 – 2021&amp;lt;/span&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;    &amp;lt;div class=&amp;quot;resume-item-sub&amp;quot;&amp;gt;Previous Company · Full-time&amp;lt;/div&amp;gt;&#xA;    &amp;lt;div class=&amp;quot;resume-item-body&amp;quot;&amp;gt;&#xA;        &amp;lt;ul&amp;gt;&#xA;            &amp;lt;li&amp;gt;Developed REST APIs and integrated third-party services.&amp;lt;/li&amp;gt;&#xA;            &amp;lt;li&amp;gt;Wrote automated tests with RSpec and Capybara.&amp;lt;/li&amp;gt;&#xA;        &amp;lt;/ul&amp;gt;&#xA;    &amp;lt;/div&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;resume-section&#34;&gt;&#xA;    &lt;p class=&#34;resume-section-title&#34;&gt;Education&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description>search</description>
     </item>
   </channel>
 </rss>

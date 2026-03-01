@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: http://taha-husain.github.io/sitemap.xml

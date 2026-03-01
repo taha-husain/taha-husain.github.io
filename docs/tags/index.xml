@@ -92,5 +92,33 @@
       <guid>http://taha-husain.github.io/tags/utc/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Graphql</title>
+      <link>http://taha-husain.github.io/tags/graphql/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/tags/graphql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postgraphile</title>
+      <link>http://taha-husain.github.io/tags/postgraphile/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/tags/postgraphile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postgresql</title>
+      <link>http://taha-husain.github.io/tags/postgresql/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://taha-husain.github.io/tags/ruby/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

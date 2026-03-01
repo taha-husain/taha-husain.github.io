@@ -29,5 +29,103 @@
       <guid>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
       <description>&lt;p&gt;By default, &lt;a href=&#34;https://www.npmjs.com/package/react-datepicker&#34;&gt;React Datepicker&lt;/a&gt;&#xA;selects date and time in local timezone.&#xA;To select date in a specified timezone&#xA;we need to convert timezone manually.&#xA;To do so, we may also need to use library like&#xA;&lt;a href=&#34;https://momentjs.com/timezone/&#34;&gt;Moment Timezone&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This blog focuses on selecting date and time in&#xA;standard UTC timezone&#xA;and its implementation doesn&amp;rsquo;t require&#xA;extra library installation.&lt;/p&gt;&#xA;&lt;p&gt;The original&#xA;&lt;a href=&#34;https://github.com/JohnStarich/sage/blob/b422b0ccef05fffe29143f335017ad2fc24f76fc/web/src/UTCDatePicker.js&#34;&gt;implementation&lt;/a&gt;&#xA;is suggested by&#xA;&lt;a href=&#34;https://github.com/JohnStarich&#34;&gt;@JohnStarich&lt;/a&gt;.&#xA;This implementation has a bit of tweak to accommodate time picker.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>React 18 introduces Automatic Batching</title>
+      <link>http://taha-husain.github.io/posts/tech/react-18-introduces-automatic-batching/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/react-18-introduces-automatic-batching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sort query data on associated table in PostGraphile</title>
+      <link>http://taha-husain.github.io/posts/tech/sort-query-data-on-associated-tables-in-postgraphile/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/sort-query-data-on-associated-tables-in-postgraphile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.7 deprecates conversion of keyword arguments</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-7-deprecates-conversion-of-keyword-arguments/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-7-deprecates-conversion-of-keyword-arguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.7 adds numbered parameters as default block parameters</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-7-adds-numbered-parameters/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-7-adds-numbered-parameters/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 adds ActionMailer#email_address_with_name</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-adds-actionmailer-email-address-with-name/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-adds-actionmailer-email-address-with-name/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 adds ActiveSupport::ActionableError</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-adds-activesupport-actionable-error/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-adds-activesupport-actionable-error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 Pass custom config to ActionCable::Server::Base</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-custom-config-actioncable-server/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-custom-config-actioncable-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recyclable cache keys in Rails</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-recyclable-cache-keys/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-recyclable-cache-keys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 deprecates where.not as NOR &amp; Rails 6.1 as NAND</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-deprecates-where-not-nor/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-deprecates-where-not-nor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 adds ActiveRecord::Relation#extract_associated</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-adds-activerecord-extract-associated/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-adds-activerecord-extract-associated/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds write_timeout to Net::HTTP</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-write-timeout-net-http/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-write-timeout-net-http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds Binding#source_location</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-binding-source-location/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-binding-source-location/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds String#split with block</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-split-with-block/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-split-with-block/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds endless range</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-endless-range/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-endless-range/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

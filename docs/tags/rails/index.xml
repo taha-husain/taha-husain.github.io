@@ -15,5 +15,47 @@
       <guid>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
       <description>&lt;p&gt;Capybara provides&#xA;&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FFinders:find_field&#34;&gt;&lt;em&gt;find_field&lt;/em&gt;&lt;/a&gt;&#xA;API to find input fields.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To add assertions&#xA;for input fields&#xA;we can use&#xA;Rspec matcher&#xA;&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FRSpecMatchers:have_field&#34;&gt;&lt;em&gt;have_field&lt;/em&gt;&lt;/a&gt;&#xA;which has similar usage as &lt;code&gt;find_field&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;expect(page).to have_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In some cases input fields are not&#xA;found using &lt;code&gt;find_field&lt;/code&gt;,&#xA;specially when input field(s)&#xA;are added by third party library.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s take an example of&#xA;&lt;a href=&#34;https://atlassian.design/components/toggle/examples&#34;&gt;toggle&lt;/a&gt;&#xA;component that we recently used&#xA;to understand this problem better.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;Toggle&#xA;  id=&amp;#34;toggleId&amp;#34;&#xA;  name=&amp;#34;toggleName&amp;#34;&#xA;  size=&amp;#34;large&amp;#34;&#xA;  isDisabled={disableToggle}&#xA;  value={toggleValue}&#xA;  isChecked={toggleValue}&#xA;  onChange={handleToggleChange}&#xA;/&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Adding above component&#xA;in react code generates&#xA;following HTML.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Rails 6 adds ActionMailer#email_address_with_name</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-adds-actionmailer-email-address-with-name/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-adds-actionmailer-email-address-with-name/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 adds ActiveSupport::ActionableError</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-adds-activesupport-actionable-error/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-adds-activesupport-actionable-error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 Pass custom config to ActionCable::Server::Base</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-custom-config-actioncable-server/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-custom-config-actioncable-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recyclable cache keys in Rails</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-recyclable-cache-keys/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-recyclable-cache-keys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 deprecates where.not as NOR &amp; Rails 6.1 as NAND</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-deprecates-where-not-nor/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-deprecates-where-not-nor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails 6 adds ActiveRecord::Relation#extract_associated</title>
+      <link>http://taha-husain.github.io/posts/tech/rails-6-adds-activerecord-extract-associated/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/rails-6-adds-activerecord-extract-associated/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

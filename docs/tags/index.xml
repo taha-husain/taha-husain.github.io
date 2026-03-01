@@ -2,99 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Taha Husain</title>
-    <link>https://taha-husain.github.io/tags/</link>
+    <link>http://taha-husain.github.io/tags/</link>
     <description>Recent content in Tags on Taha Husain</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Oct 2021 07:27:55 +0530</lastBuildDate><atom:link href="https://taha-husain.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Oct 2021 15:12:17 +0530</lastBuildDate>
+    <atom:link href="http://taha-husain.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>music</title>
-      <link>https://taha-husain.github.io/tags/music/</link>
+      <title>Pagination</title>
+      <link>http://taha-husain.github.io/tags/pagination/</link>
+      <pubDate>Fri, 22 Oct 2021 15:12:17 +0530</pubDate>
+      <guid>http://taha-husain.github.io/tags/pagination/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>http://taha-husain.github.io/tags/react/</link>
+      <pubDate>Fri, 22 Oct 2021 15:12:17 +0530</pubDate>
+      <guid>http://taha-husain.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React-Table</title>
+      <link>http://taha-husain.github.io/tags/react-table/</link>
+      <pubDate>Fri, 22 Oct 2021 15:12:17 +0530</pubDate>
+      <guid>http://taha-husain.github.io/tags/react-table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>http://taha-husain.github.io/tags/music/</link>
       <pubDate>Sat, 09 Oct 2021 07:27:55 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/music/</guid>
+      <guid>http://taha-husain.github.io/tags/music/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>music-instruments</title>
-      <link>https://taha-husain.github.io/tags/music-instruments/</link>
+      <title>Music-Instruments</title>
+      <link>http://taha-husain.github.io/tags/music-instruments/</link>
       <pubDate>Sat, 09 Oct 2021 07:27:55 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/music-instruments/</guid>
+      <guid>http://taha-husain.github.io/tags/music-instruments/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>capybara</title>
-      <link>https://taha-husain.github.io/tags/capybara/</link>
+      <title>Capybara</title>
+      <link>http://taha-husain.github.io/tags/capybara/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/capybara/</guid>
+      <guid>http://taha-husain.github.io/tags/capybara/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rails</title>
-      <link>https://taha-husain.github.io/tags/rails/</link>
+      <title>Rails</title>
+      <link>http://taha-husain.github.io/tags/rails/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/rails/</guid>
+      <guid>http://taha-husain.github.io/tags/rails/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>react</title>
-      <link>https://taha-husain.github.io/tags/react/</link>
+      <title>Rspec</title>
+      <link>http://taha-husain.github.io/tags/rspec/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/react/</guid>
+      <guid>http://taha-husain.github.io/tags/rspec/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rspec</title>
-      <link>https://taha-husain.github.io/tags/rspec/</link>
+      <title>Testing</title>
+      <link>http://taha-husain.github.io/tags/testing/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/rspec/</guid>
+      <guid>http://taha-husain.github.io/tags/testing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>testing</title>
-      <link>https://taha-husain.github.io/tags/testing/</link>
-      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>react-datepicker</title>
-      <link>https://taha-husain.github.io/tags/react-datepicker/</link>
+      <title>React-Datepicker</title>
+      <link>http://taha-husain.github.io/tags/react-datepicker/</link>
       <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/react-datepicker/</guid>
+      <guid>http://taha-husain.github.io/tags/react-datepicker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>timezone</title>
-      <link>https://taha-husain.github.io/tags/timezone/</link>
+      <title>Timezone</title>
+      <link>http://taha-husain.github.io/tags/timezone/</link>
       <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/timezone/</guid>
+      <guid>http://taha-husain.github.io/tags/timezone/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>utc</title>
-      <link>https://taha-husain.github.io/tags/utc/</link>
+      <title>Utc</title>
+      <link>http://taha-husain.github.io/tags/utc/</link>
       <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
-      
-      <guid>https://taha-husain.github.io/tags/utc/</guid>
+      <guid>http://taha-husain.github.io/tags/utc/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

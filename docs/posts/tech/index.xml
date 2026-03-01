@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech Blogs on Taha Husain</title>
+    <link>http://taha-husain.github.io/posts/tech/</link>
+    <description>Recent content in Tech Blogs on Taha Husain</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Oct 2021 15:12:17 +0530</lastBuildDate>
+    <atom:link href="http://taha-husain.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React Table - How to implement row selection with controlled server-side pagination</title>
+      <link>http://taha-husain.github.io/posts/tech/react-table-row-selection-with-controlled-pagination/</link>
+      <pubDate>Fri, 22 Oct 2021 15:12:17 +0530</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/react-table-row-selection-with-controlled-pagination/</guid>
+      <description>&lt;p&gt;In this blog,
+we will implement
+multi-row selection
+and select all
+with controlled
+server-side pagination
+in React
+using React Table hooks.&lt;/p&gt;
+&lt;p&gt;We will use
+examples provided by
+&lt;code&gt;react-table&lt;/code&gt; for
+&lt;a href=&#34;https://react-table.tanstack.com/docs/examples/pagination-controlled&#34;&gt;controlled pagination&lt;/a&gt;
+and
+&lt;a href=&#34;https://react-table.tanstack.com/docs/examples/row-selection-and-pagination&#34;&gt;row selection and pagination&lt;/a&gt;
+and work our way to acheive desired result.&lt;/p&gt;
+&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
+&lt;h4 id=&#34;step-1&#34;&gt;Step 1&lt;/h4&gt;
+&lt;p&gt;To select all rows,
+we would need unique identifier
+of all rows pre-fetched
+on the page.
+Pass all ids to the &lt;code&gt;Table&lt;/code&gt; component.&lt;/p&gt;
+&lt;h4 id=&#34;step-2&#34;&gt;Step 2&lt;/h4&gt;
+&lt;p&gt;Use &lt;code&gt;getToggleAllRowsSelectedProps&lt;/code&gt;
+instead of &lt;code&gt;getToggleAllPageRowsSelectedProps&lt;/code&gt;
+for header checkbox
+to trigger rows select event across
+all pages.
+Note - &lt;code&gt;getToggleAllRowsSelectedProps&lt;/code&gt; works
+seamlessly for frontend pagination,
+but needs to be customized for
+server-side pagination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Capybara with Rspec - How to find and assert fields</title>
+      <link>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
+      <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
+      <description>&lt;p&gt;Capybara provides
+&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FFinders:find_field&#34;&gt;&lt;em&gt;find_field&lt;/em&gt;&lt;/a&gt;
+API to find input fields.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To add assertions
+for input fields
+we can use
+Rspec matcher
+&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FRSpecMatchers:have_field&#34;&gt;&lt;em&gt;have_field&lt;/em&gt;&lt;/a&gt;
+which has similar usage as &lt;code&gt;find_field&lt;/code&gt;.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;expect(page).to have_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In some cases input fields are not
+found using &lt;code&gt;find_field&lt;/code&gt;,
+specially when input field(s)
+are added by third party library.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take an example of
+&lt;a href=&#34;https://atlassian.design/components/toggle/examples&#34;&gt;toggle&lt;/a&gt;
+component that we recently used
+to understand this problem better.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;Toggle
+  id=&amp;#34;toggleId&amp;#34;
+  name=&amp;#34;toggleName&amp;#34;
+  size=&amp;#34;large&amp;#34;
+  isDisabled={disableToggle}
+  value={toggleValue}
+  isChecked={toggleValue}
+  onChange={handleToggleChange}
+/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Adding above component
+in react code generates
+following HTML.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>React Datepicker - How to select Date and time in UTC</title>
+      <link>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
+      <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
+      <description>&lt;p&gt;By default, &lt;a href=&#34;https://www.npmjs.com/package/react-datepicker&#34;&gt;React Datepicker&lt;/a&gt;
+selects date and time in local timezone.
+To select date in a specified timezone
+we need to convert timezone manually.
+To do so, we may also need to use library like
+&lt;a href=&#34;https://momentjs.com/timezone/&#34;&gt;Moment Timezone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This blog focuses on selecting date and time in
+standard UTC timezone
+and its implementation doesn&amp;rsquo;t require
+extra library installation.&lt;/p&gt;
+&lt;p&gt;The original
+&lt;a href=&#34;https://github.com/JohnStarich/sage/blob/b422b0ccef05fffe29143f335017ad2fc24f76fc/web/src/UTCDatePicker.js&#34;&gt;implementation&lt;/a&gt;
+is suggested by
+&lt;a href=&#34;https://github.com/JohnStarich&#34;&gt;@JohnStarich&lt;/a&gt;.
+This implementation has a bit of tweak to accommodate time picker.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

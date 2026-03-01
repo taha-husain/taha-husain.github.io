@@ -1,0 +1,32 @@
+{{- $simpleicons := dict
+    "Ruby" "ruby"
+    "Ruby on Rails" "rubyonrails"
+    "GraphQL" "graphql"
+    "Redis" "redis"
+    "Docker" "docker"
+    "Kubernetes" "kubernetes"
+    "PostgreSQL" "postgresql"
+    "MySQL" "mysql"
+    "MongoDB" "mongodb"
+    "React" "react"
+    "Node.js" "nodedotjs"
+    "Angular" "angular"
+    "Python" "python"
+    "Jenkins" "jenkins"
+    "Jest" "jest"
+    "RabbitMQ" "rabbitmq"
+    "Clojure" "clojure"
+    "Mapbox" "mapbox"
+    "Express" "express"
+    "Auth0" "auth0"
+    "Grafana" "grafana"
+-}}
+{{- $devicons := dict
+    "AWS" "amazonwebservices/amazonwebservices-original-wordmark"
+    "AWS (EC2, RDS, S3, SQS)" "amazonwebservices/amazonwebservices-original-wordmark"
+-}}
+{{- $slug := index $simpleicons . -}}
+{{- $devslug := index $devicons . -}}
+{{- if $slug -}}<img src="https://cdn.simpleicons.org/{{ $slug }}" width="14" height="14" alt="" aria-hidden="true" class="tech-icon">
+{{- else if $devslug -}}<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{{ $devslug }}.svg" width="14" height="14" alt="" aria-hidden="true" class="tech-icon">
+{{- end -}}

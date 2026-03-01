@@ -17,10 +17,10 @@ minify:
 
 params:
     author: Taha Husain
-    description: "Software Engineer & Student of Music"
+    description: "Senior Software Engineer based in Berlin"
     intro: |
-        Hi, I'm Taha — a software engineer who loves building things on the web.
-        I write about React, Rails, and occasionally music.
+        Hi, I'm Taha — a senior software engineer based in Berlin with 11+ years of experience building backend-heavy web applications.
+        I specialise in Ruby on Rails, distributed systems, and AWS. I also write about React, and occasionally music.
     avatarUrl: /avatar.jpg
     socialLinks:
         - name: GitHub
@@ -29,12 +29,6 @@ params:
         - name: LinkedIn
           url: "https://linkedin.com/in/tahahussain18"
           icon: linkedin
-        - name: Instagram
-          url: "https://www.instagram.com/tahahussain18/"
-          icon: instagram
-        - name: YouTube
-          url: "https://www.youtube.com/channel/UClzJVBAHj_36wVxpc7-99hQ"
-          icon: youtube
         - name: Email
           url: "mailto:tahahussain18@gmail.com"
           icon: email

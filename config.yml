@@ -1,7 +1,5 @@
 baseURL: "https://taha-husain.github.io/"
 title: Taha Husain
-paginate: 10
-theme: PaperMod
 publishDir: "docs"
 
 enableRobotsTXT: true
@@ -9,138 +7,59 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: G-EMFCZ33WZB
+services:
+    googleAnalytics:
+        ID: G-EMFCZ33WZB
 
 minify:
     disableXML: true
     minifyOutput: true
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Taha Husain
-    description: "Software Engineer"
-    keywords: [Blog, Portfolio]
     author: Taha Husain
-    # images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "Jan 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
-
-    ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    disableSpecial1stPost: false
-    disableScrollToTop: false
-    comments: false
-    hidemeta: false
-    hideSummary: false
-    showtoc: false
-    tocopen: false
-
-    assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: "favicon_io/favicon.ico"
-        favicon16x16: "favicon_io/favicon-16x16.png"
-        favicon32x32: "favicon_io/favicon-32x32.png"
-        apple_touch_icon: "favicon_io/apple-touch-icon.png"
-
-    label:
-        text: "Taha Husain"
-        # icon: avatar.jpg
-
-    # profile-mode
-    profileMode:
-        enabled: true # needs to be explicitly set
-        title: Taha Husain
-        subtitle: Software Engineer | Student of Music and Yoga
-        imageUrl: /avatar.jpg
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Categories
-              url: categories
-            - name: Tags
-              url: tags
-
-    # home-info mode
-    homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog.
-
-    socialIcons:
-        - name: instagram
-          url: "https://www.instagram.com/tahahussain18/"
-        - name: youtube
-          url: "https://www.youtube.com/channel/UClzJVBAHj_36wVxpc7-99hQ"
-        - name: github
+    description: "Software Engineer & Student of Music"
+    intro: |
+        Hi, I'm Taha — a software engineer who loves building things on the web.
+        I write about React, Rails, and occasionally music.
+    avatarUrl: /avatar.jpg
+    socialLinks:
+        - name: GitHub
           url: "https://github.com/taha-husain"
-        - name: linkedin
+          icon: github
+        - name: LinkedIn
           url: "https://linkedin.com/in/tahahussain18"
-        - name: email
+          icon: linkedin
+        - name: Instagram
+          url: "https://www.instagram.com/tahahussain18/"
+          icon: instagram
+        - name: YouTube
+          url: "https://www.youtube.com/channel/UClzJVBAHj_36wVxpc7-99hQ"
+          icon: youtube
+        - name: Email
           url: "mailto:tahahussain18@gmail.com"
+          icon: email
 
-    cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
-
-    editPost:
-        URL: "https://github.com/taha-husain/taha-husain.github.io/blob/master/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
-
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: posts
-          name: Posts
+        - name: Blog
           url: /posts/
           weight: 10
-        - identifier: categories
-          name: Categories
-          url: /categories/
+        - name: Portfolio
+          url: /portfolio/
           weight: 20
-        # - identifier: tags
-        #   name: Tags
-        #   url: /tags/
-        #   weight: 30
-        - name: Search
-          url: /search/
-          weight: 40
+        - name: Resume
+          url: /resume/
+          weight: 30
 
 taxonomies:
-    category: categories
     tag: tags
-    series: series
 
 outputs:
     home:
         - HTML
         - RSS
-        - JSON # is necessary
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# noClasses: false
-# markup:
-#     highlight:
-#         anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+markup:
+    goldmark:
+        renderer:
+            unsafe: true

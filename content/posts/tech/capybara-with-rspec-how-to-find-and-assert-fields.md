@@ -1,7 +1,6 @@
 ---
 title: "Capybara with Rspec - How to find and assert fields"
 date: 2021-10-01T11:45:14+05:30
-categories: [Tech]
 tags: [rails, rspec, capybara, react, testing]
 ---
 

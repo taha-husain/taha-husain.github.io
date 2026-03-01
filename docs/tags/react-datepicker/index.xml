@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React-Datepicker on Taha Husain</title>
-    <link>http://taha-husain.github.io/tags/react-datepicker/</link>
+    <link>http://localhost:1313/tags/react-datepicker/</link>
     <description>Recent content in React-Datepicker on Taha Husain</description>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 19 Sep 2021 11:28:55 +0530</lastBuildDate>
-    <atom:link href="http://taha-husain.github.io/tags/react-datepicker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/react-datepicker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React Datepicker - How to select Date and time in UTC</title>
-      <link>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
+      <link>http://localhost:1313/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</link>
       <pubDate>Sun, 19 Sep 2021 11:28:55 +0530</pubDate>
-      <guid>http://taha-husain.github.io/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
-      <description>&lt;p&gt;By default, &lt;a href=&#34;https://www.npmjs.com/package/react-datepicker&#34;&gt;React Datepicker&lt;/a&gt;
-selects date and time in local timezone.
-To select date in a specified timezone
-we need to convert timezone manually.
-To do so, we may also need to use library like
-&lt;a href=&#34;https://momentjs.com/timezone/&#34;&gt;Moment Timezone&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blog focuses on selecting date and time in
-standard UTC timezone
-and its implementation doesn&amp;rsquo;t require
-extra library installation.&lt;/p&gt;
-&lt;p&gt;The original
-&lt;a href=&#34;https://github.com/JohnStarich/sage/blob/b422b0ccef05fffe29143f335017ad2fc24f76fc/web/src/UTCDatePicker.js&#34;&gt;implementation&lt;/a&gt;
-is suggested by
-&lt;a href=&#34;https://github.com/JohnStarich&#34;&gt;@JohnStarich&lt;/a&gt;.
-This implementation has a bit of tweak to accommodate time picker.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/tech/react-datepicker-how-to-select-date-time-in-utc/</guid>
+      <description>&lt;p&gt;By default, &lt;a href=&#34;https://www.npmjs.com/package/react-datepicker&#34;&gt;React Datepicker&lt;/a&gt;&#xA;selects date and time in local timezone.&#xA;To select date in a specified timezone&#xA;we need to convert timezone manually.&#xA;To do so, we may also need to use library like&#xA;&lt;a href=&#34;https://momentjs.com/timezone/&#34;&gt;Moment Timezone&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This blog focuses on selecting date and time in&#xA;standard UTC timezone&#xA;and its implementation doesn&amp;rsquo;t require&#xA;extra library installation.&lt;/p&gt;&#xA;&lt;p&gt;The original&#xA;&lt;a href=&#34;https://github.com/JohnStarich/sage/blob/b422b0ccef05fffe29143f335017ad2fc24f76fc/web/src/UTCDatePicker.js&#34;&gt;implementation&lt;/a&gt;&#xA;is suggested by&#xA;&lt;a href=&#34;https://github.com/JohnStarich&#34;&gt;@JohnStarich&lt;/a&gt;.&#xA;This implementation has a bit of tweak to accommodate time picker.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

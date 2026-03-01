@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Taha Husain</title>
+    <link>http://taha-husain.github.io/tags/ruby/</link>
+    <description>Recent content in Ruby on Taha Husain</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://taha-husain.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby 2.7 deprecates conversion of keyword arguments</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-7-deprecates-conversion-of-keyword-arguments/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-7-deprecates-conversion-of-keyword-arguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.7 adds numbered parameters as default block parameters</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-7-adds-numbered-parameters/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-7-adds-numbered-parameters/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds write_timeout to Net::HTTP</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-write-timeout-net-http/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-write-timeout-net-http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds Binding#source_location</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-binding-source-location/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-binding-source-location/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds String#split with block</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-split-with-block/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-split-with-block/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby 2.6 adds endless range</title>
+      <link>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-endless-range/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-endless-range/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -34,9 +34,12 @@
     {{ $posts = $posts | first 5 }}
     <ul class="post-list">
         {{ range $posts }}
+        {{ $url := .Permalink }}
+        {{ $external := false }}
+        {{ with .Params.externalUrl }}{{ $url = . }}{{ $external = true }}{{ end }}
         <li class="post-list-item">
-            <a href="{{ .Permalink }}" class="post-list-link">
-                <span class="post-list-title">{{ .Title }}</span>
+            <a href="{{ $url }}" class="post-list-link"{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                <span class="post-list-title">{{ .Title }}{{ if $external }} <span class="post-list-external">↗</span>{{ end }}</span>
                 <span class="post-list-date">{{ .Date.Format "Jan 2, 2006" }}</span>
             </a>
         </li>

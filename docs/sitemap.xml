@@ -65,6 +65,60 @@
     <loc>http://taha-husain.github.io/tags/utc/</loc>
     <lastmod>2021-09-19T11:28:55+05:30</lastmod>
   </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/react-18-introduces-automatic-batching/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/tags/graphql/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/tags/postgraphile/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/tags/postgresql/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/sort-query-data-on-associated-tables-in-postgraphile/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/tags/ruby/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/ruby-2-7-deprecates-conversion-of-keyword-arguments/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/ruby-2-7-adds-numbered-parameters/</loc>
+    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/rails-6-adds-actionmailer-email-address-with-name/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/rails-6-adds-activesupport-actionable-error/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/rails-6-custom-config-actioncable-server/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/rails-recyclable-cache-keys/</loc>
+    <lastmod>2019-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/rails-6-deprecates-where-not-nor/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/rails-6-adds-activerecord-extract-associated/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-write-timeout-net-http/</loc>
+    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-binding-source-location/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-split-with-block/</loc>
+    <lastmod>2018-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://taha-husain.github.io/posts/tech/ruby-2-6-adds-endless-range/</loc>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://taha-husain.github.io/portfolio/</loc>
   </url><url>
     <loc>http://taha-husain.github.io/resume/</loc>

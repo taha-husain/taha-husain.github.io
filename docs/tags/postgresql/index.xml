@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postgresql on Taha Husain</title>
+    <link>http://taha-husain.github.io/tags/postgresql/</link>
+    <description>Recent content in Postgresql on Taha Husain</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://taha-husain.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sort query data on associated table in PostGraphile</title>
+      <link>http://taha-husain.github.io/posts/tech/sort-query-data-on-associated-tables-in-postgraphile/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://taha-husain.github.io/posts/tech/sort-query-data-on-associated-tables-in-postgraphile/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

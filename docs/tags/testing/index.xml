@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Taha Husain</title>
-    <link>http://localhost:1313/tags/testing/</link>
+    <link>http://taha-husain.github.io/tags/testing/</link>
     <description>Recent content in Testing on Taha Husain</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Oct 2021 11:45:14 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://taha-husain.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capybara with Rspec - How to find and assert fields</title>
-      <link>http://localhost:1313/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
+      <link>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</link>
       <pubDate>Fri, 01 Oct 2021 11:45:14 +0530</pubDate>
-      <guid>http://localhost:1313/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
+      <guid>http://taha-husain.github.io/posts/tech/capybara-with-rspec-how-to-find-and-assert-fields/</guid>
       <description>&lt;p&gt;Capybara provides&#xA;&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FFinders:find_field&#34;&gt;&lt;em&gt;find_field&lt;/em&gt;&lt;/a&gt;&#xA;API to find input fields.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;find_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To add assertions&#xA;for input fields&#xA;we can use&#xA;Rspec matcher&#xA;&lt;a href=&#34;https://www.rubydoc.info/gems/capybara/Capybara%2FRSpecMatchers:have_field&#34;&gt;&lt;em&gt;have_field&lt;/em&gt;&lt;/a&gt;&#xA;which has similar usage as &lt;code&gt;find_field&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;expect(page).to have_field(&amp;#39;id_of_checkbox&amp;#39;, type: &amp;#39;checkbox&amp;#39;)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In some cases input fields are not&#xA;found using &lt;code&gt;find_field&lt;/code&gt;,&#xA;specially when input field(s)&#xA;are added by third party library.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s take an example of&#xA;&lt;a href=&#34;https://atlassian.design/components/toggle/examples&#34;&gt;toggle&lt;/a&gt;&#xA;component that we recently used&#xA;to understand this problem better.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;Toggle&#xA;  id=&amp;#34;toggleId&amp;#34;&#xA;  name=&amp;#34;toggleName&amp;#34;&#xA;  size=&amp;#34;large&amp;#34;&#xA;  isDisabled={disableToggle}&#xA;  value={toggleValue}&#xA;  isChecked={toggleValue}&#xA;  onChange={handleToggleChange}&#xA;/&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Adding above component&#xA;in react code generates&#xA;following HTML.&lt;/p&gt;</description>
     </item>
   </channel>

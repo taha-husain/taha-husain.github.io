@@ -1,0 +1,151 @@
+{{ define "main" }}
+
+<h1 class="page-title">{{ .Title }}</h1>
+
+<div class="portfolio-grid">
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">Tourlane &mdash; Travel Planning Platform</span>
+            <div class="project-links">
+                <a href="https://www.tourlane.com" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    tourlane.com
+                </a>
+            </div>
+        </div>
+        <p class="project-desc">Backend service team for Tourlane&rsquo;s customer-facing travel planning and booking platform. Led development of scalable APIs, refactored legacy modules, and documented architectural decisions through RFCs and ADRs.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "PostgreSQL" }}PostgreSQL</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "AWS" }}AWS</span>
+            <span class="stack-tag">Sidekiq</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Grafana" }}Grafana</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">HeyJobs &mdash; Marketing Engineering</span>
+            <div class="project-links">
+                <a href="https://www.heyjobs.co" class="project-link" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    heyjobs.co
+                </a>
+            </div>
+        </div>
+        <p class="project-desc">Growth infrastructure for HeyJobs&rsquo; marketing engineering team &mdash; integrating acquisition channels, automating campaign distribution, and building scalable services for job advertising at scale.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "React" }}React</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "AWS" }}AWS</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">Cloud Logistics</span>
+            <div class="project-links">
+                <span class="project-link" style="cursor: default; pointer-events: none;">via BigBinary</span>
+            </div>
+        </div>
+        <p class="project-desc">Full-stack logistics platform built for an international client. Owned backend architecture and API design end-to-end, from requirements through production deployment.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "React" }}React</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "GraphQL" }}GraphQL</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "PostgreSQL" }}PostgreSQL</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Docker" }}Docker</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Kubernetes" }}Kubernetes</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">Gemini</span>
+            <div class="project-links">
+                <span class="project-link" style="cursor: default; pointer-events: none;">via BigBinary</span>
+            </div>
+        </div>
+        <p class="project-desc">Production application delivered for an international client. Designed APIs, database schemas, and served as the technical liaison for client-facing architecture decisions.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">RSpec</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Node.js" }}Node.js</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Express" }}Express</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Auth0" }}Auth0</span>
+            <span class="stack-tag">Postgraphile</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">NitroHelp</span>
+            <div class="project-links">
+                <span class="project-link" style="cursor: default; pointer-events: none;">via BigBinary</span>
+            </div>
+        </div>
+        <p class="project-desc">Customer support tooling platform. Built and maintained backend services and GraphQL APIs, with frontend work in Angular. Full project lifecycle ownership from scoping to deployment.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Angular" }}Angular</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "GraphQL" }}GraphQL</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Jest" }}Jest</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Docker" }}Docker</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">Gymshim</span>
+            <div class="project-links">
+                <span class="project-link" style="cursor: default; pointer-events: none;">via Webonise</span>
+            </div>
+        </div>
+        <p class="project-desc">Fitness and gym management platform. Built backend modules and asynchronous processing systems, optimised database schemas, and worked across the full stack with React and Rails.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "React" }}React</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "PostgreSQL" }}PostgreSQL</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "RabbitMQ" }}RabbitMQ</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">H2Observer</span>
+            <div class="project-links">
+                <span class="project-link" style="cursor: default; pointer-events: none;">via Webonise</span>
+            </div>
+        </div>
+        <p class="project-desc">Geospatial water monitoring platform using PostGIS and Mapbox for location-aware data visualisation. Backend written in Clojure with Ring and Compojure, with async data pipelines via RabbitMQ.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Clojure" }}Clojure</span>
+            <span class="stack-tag">Ring</span>
+            <span class="stack-tag">Compojure</span>
+            <span class="stack-tag">PostGIS</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Mapbox" }}Mapbox</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "RabbitMQ" }}RabbitMQ</span>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-card-header">
+            <span class="project-name">NFHS Learn</span>
+            <div class="project-links">
+                <span class="project-link" style="cursor: default; pointer-events: none;">via Webonise</span>
+            </div>
+        </div>
+        <p class="project-desc">E-learning platform for the National Federation of State High School Associations. Built backend services with Rails and Python, integrated CI/CD with Jenkins, and contributed to frontend work in React.</p>
+        <div class="project-stack">
+            <span class="stack-tag">{{ partial "tech-icon.html" "Ruby on Rails" }}Ruby on Rails</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Python" }}Python</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "React" }}React</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "PostgreSQL" }}PostgreSQL</span>
+            <span class="stack-tag">{{ partial "tech-icon.html" "Jenkins" }}Jenkins</span>
+        </div>
+    </div>
+
+</div>
+
+{{ end }}

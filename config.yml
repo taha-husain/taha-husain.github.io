@@ -19,8 +19,8 @@ params:
     author: Taha Husain
     description: "Senior Software Engineer based in Berlin"
     intro: |
-        Hi, I'm Taha — a senior software engineer based in Berlin with 11+ years of experience building backend-heavy web applications.
-        I specialise in Ruby on Rails, distributed systems, and AWS. I also write about technology, and occasionally music.
+        Hi, I'm Taha — a software engineer in Berlin who builds web applications.
+        Outside work, I'm an aspiring Indian classical violinist, a home-chef, and a juggler. I enjoy taking the scenic routes in new countries, and I love to hike, swim, or workout on weekends.
     avatarUrl: /avatar.jpg
     socialLinks:
         - name: GitHub
